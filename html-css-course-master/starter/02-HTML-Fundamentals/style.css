@@ -1,0 +1,42 @@
+body {
+  border: 5px solid black;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightgray;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+.price {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a:link {
+  color: black;
+  text-decoration: underline;
+}
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.but {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: square;
+}

@@ -1,0 +1,112 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blue;
+  font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgb(244, 0, 240);
+  margin: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+article header p {
+  font-style: italic;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.related-author {
+  font-size: 24px;
+}
+
+#related-list {
+  list-style: none;
+}
+
+aside {
+  background-color: white;
+  border: 5px solid blue;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:nth-child(2) {
+  font-weight: bold;
+}
+
+article p:last-child {
+  color: red;
+} /* does not work well with sub class */
+
+/* styling links */
+a:link {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}

@@ -1,0 +1,19 @@
+.heading {
+  font-size: 32px;
+  text-align: center;
+}
+
+.but {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  background-color: yellowgreen;
+}
+
+#all {
+  font-size: large;
+}
+
+.test {
+  color: red;
+}
